@@ -1,36 +1,39 @@
-📚 Library Management System (SQL Project)
-A simple SQL-based Library Management System that simulates real-life operations such as book borrowing, returns, member and librarian management, and tracking overdue books.
+<br>
+📚 Library Management System (SQL Project) <br>
+A simple SQL-based Library Management System that simulates real-life operations such as book borrowing, returns, member and librarian management, and tracking overdue books.<br><br>
 
-🗂️ Database: BOOKSTORE
-This project includes the following tables:
-BOOKS – Book details and availability
-MEMBERS – Library member information
-LIBRARIANS – Librarian records
-RECORDS – Book borrow/return history
+🗂️ Database: BOOKSTORE<br>
+This project includes the following tables:<br>
+BOOKS – Book details and availability<br>
+MEMBERS – Library member information<br>
+LIBRARIANS – Librarian records<br>
+RECORDS – Book borrow/return history<br>
 
-
-✅ Key Features
-Book borrowing and return management
-Book availability tracking
-Overdue books list
-Loan history (using views)
-Search by author, genre, or year
-Member-wise borrowing stats
-Librarian-wise issue count
-
-
+<br>
+✅ Key Features<br>
+Book borrowing and return management<br>
+Book availability tracking<br>
+Overdue books list<br>
+Loan history (using views)<br>
+Search by author, genre, or year<br>
+Member-wise borrowing stats<br>
+Librarian-wise issue count<br>
+<br>
+<br>
 📌 Views Created
+<br>
+LOAN_HISTORY – Member-wise loan details<br>
+PENDING_BOOKS – Unreturned books view<br>
+<br>
+<br>
+🧪 Sample Data<br>
+The database is populated with sample records for 20 members, 5 librarians, and multiple loan transactions.<br>
 
-LOAN_HISTORY – Member-wise loan details
-PENDING_BOOKS – Unreturned books view
-
-🧪 Sample Data
-The database is populated with sample records for 20 members, 5 librarians, and multiple loan transactions.
-
-📎 Author
-Rakesh Kurimeti
-
- 📎 Connect with Me
+<br><br>
+📎 Author<br>
+Rakesh Kurimeti<br>
+<br><br>
+ 📎 Connect with Me<br>
 
 [LinkedIn](https://www.linkedin.com/in/rakesh-kurimeti/)          [GitHub](https://github.com/rakeshkurimeti)
 
