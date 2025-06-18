@@ -43,10 +43,10 @@ create table librarians(SNo INT,NAME VARCHAR(50),MAIL_ID VARCHAR(50),PHONE_NO va
 select * from librarians
 
 INSERT into LIBRARIANS VALUES(1,'RAKESH','rakesh@gmail.com',6305495789,'MORNING',30000),
-                        (2,'ANAND','ANAND@gmail.com',8205495789,'MORNING',22000),
-                        (3,'SARATH','SARATHh@gmail.com',9396595789,'AFTERNOON',13000),
-                        (4,'TINESH','TINESH@gmail.com',6305495789,'EVENING',9000),
-                        (5,'SAGAR','SAGAR@gmail.com',6305495789,'EVENING',8000)
+                             (2,'ANAND','ANAND@gmail.com',8205495789,'MORNING',22000),
+                             (3,'SARATH','SARATHh@gmail.com',9396595789,'AFTERNOON',13000),
+                             (4,'TINESH','TINESH@gmail.com',6305495789,'EVENING',9000),
+                             (5,'SAGAR','SAGAR@gmail.com',6305495789,'EVENING',8000)
 
 select * from librarians
 
@@ -58,13 +58,13 @@ SELECT * FROM RECORDS
 insert into records values(1,101,1,5450,'9066','2024-08-16','2024-08-25',1,'Rakesh',0,'NONE'),
                           (2,102,2,5451,'9067,9081','2024-08-18','2024-08-26',2,'Anand',0,'NONE'),
                           (3,103,1,5452,'9072','2024-08-21','2024-08-30',1,'Sarath',0,'NONE'),
-						  (4,104,1,5453,'9068','2024-09-20','2024-09-30',1,'Sagar',0,'NONE'),
-						  (5,105,1,5466,'9070','2025-02-15','2025-02-24',1,'Tinesh',0,'NONE'),
-						  (6,106,2,5469,'9075,9076','2025-03-30','2025-04-08',1,'Rakesh',1,'9075'),
+		          (4,104,1,5453,'9068','2024-09-20','2024-09-30',1,'Sagar',0,'NONE'),
+			  (5,105,1,5466,'9070','2025-02-15','2025-02-24',1,'Tinesh',0,'NONE'),
+			  (6,106,2,5469,'9075,9076','2025-03-30','2025-04-08',1,'Rakesh',1,'9075'),
                           (7,107,1,5459,'9069','2024-09-26','2024-10-05',1,'Anand',0,'NONE'),
                           (8,108,1,5456,'9085','2024-09-26','2024-10-05',1,'Sarath',0,'NONE'),
-                          (9,109,3,5463,'9075,9070','2025-01-17',null,0,'Tinesh','9075,9070',),
-                          (10,110,4,5465,'9081,75,67,66','2025-02-15',null,0,'Rakesh',4,'9075,81,67,66'),						  
+                          (9,109,3,5463,'9075,9070','2025-01-17',null,0,'Tinesh','9075,9070'),
+                          (10,110,4,5465,'9081,75,67,66','2025-02-15',null,0,'Rakesh',4,'9075,81,67,66')					  
 
 SELECT * FROM RECORDS
 
